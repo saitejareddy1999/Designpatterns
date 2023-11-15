@@ -1,0 +1,23 @@
+package Threading.Callables;
+
+import java.util.concurrent.Callable;
+//import java.util.concurrent.locks.Lock;
+
+public class Adder implements Callable<Void> {
+    private Value v;
+
+
+    public Adder(Value v) {
+        this.v = v;
+
+
+    }
+
+    @Override
+    public Void call() throws Exception {//it indicates that the call() method doesn't return any meaningful value.
+        for (int i = 1; i <= 5000; ++i) {
+            this.v.value += i;
+        }
+        return null;
+    }
+}
