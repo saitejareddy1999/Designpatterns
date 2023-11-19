@@ -1,10 +1,10 @@
-//import TTTCode.Controllers.GameController;
-//import TTTCode.Models.*;
-//import TTTCode.Strategies.PlayerStrategies.EasyBotPlayingStrategy;
-//import TTTCode.Strategies.WinningStrategies.PlayerWinningStrategy;
-//import TTTCode.Strategies.WinningStrategies.colWinningStrategy;
-//import TTTCode.Strategies.WinningStrategies.diagonalWinningStrategy;
-//import TTTCode.Strategies.WinningStrategies.rowWinningStrategy;
+//import Casestudies.TTTCode.Controllers.GameController;
+//import Casestudies.TTTCode.Models.*;
+//import Casestudies.TTTCode.Strategies.PlayerStrategies.EasyBotPlayingStrategy;
+//import Casestudies.TTTCode.Strategies.WinningStrategies.PlayerWinningStrategy;
+//import Casestudies.TTTCode.Strategies.WinningStrategies.colWinningStrategy;
+//import Casestudies.TTTCode.Strategies.WinningStrategies.diagonalWinningStrategy;
+//import Casestudies.TTTCode.Strategies.WinningStrategies.rowWinningStrategy;
 //
 //import java.util.ArrayList;
 //import java.util.List;
